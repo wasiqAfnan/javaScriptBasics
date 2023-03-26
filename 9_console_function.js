@@ -14,3 +14,15 @@ console.table(val); // print the key value pair in tabular form
 console.time("label");
 console.timeEnd("label");
 console.clear();// clear the console
+
+// alert, prompt and confirm
+alert(); // --> shows an alert on the webpage
+
+// Demo of prompt function
+prompt(); // --> prompt function is basically used to get input from the user
+/*{
+    alert("Eneter x: ");
+    let x = prompt("Enter x here",DefaultvalueIfAny)
+}*/
+
+confirm("Message you want to show will go here!"); // --> shows pop up  notification that asks user a question and give user two options ok or cancel

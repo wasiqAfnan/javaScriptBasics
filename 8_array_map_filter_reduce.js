@@ -21,7 +21,7 @@ let newArray = array.filter((value)=>{
 })
 console.log(newArray); // prints --> [ 6, 8, 19 ]
 
-// array reduce is use reduce rhe array in one unit
+// array reduce is use reduce the array in one unit
 let array1 = [5,6,8,4,9];
 let newArray1 = array1.reduce((v1,v2)=>{
     return v1 + v2;
